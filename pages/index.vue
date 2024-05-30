@@ -1,5 +1,5 @@
 <script setup>
-  const dyn = '/.netlify/images?url=/test.png&w100'
+  const dyn = '/.netlify/images?url=/test.png&w=100'
 </script>
 
 <template>
