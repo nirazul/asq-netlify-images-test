@@ -8,7 +8,7 @@
     <br>
     <br>
     original:
-    <img style="width: 200px;" src="/test.png" alt="">
+    <img style="width: 400px;" src="/test.png" alt="">
 
     converted:
     <img style="width: 200px;" :src="dyn" alt="">
