@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently --kill-others 'npx netlify-cms-proxy-server' 'npm run dev:netlify'",
+    "dev:netlify": "npx netlify dev --command 'npm run dev:nuxt'",
+    "dev:nuxt": "nuxt dev"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "netlify-cli": "^17.25.0"
+  }
+}
